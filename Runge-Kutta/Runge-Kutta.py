@@ -28,6 +28,7 @@ def plot(t, v):
     plt.xlabel('t [s]')
     plt.ylabel('v (downward) [m/s]')
     plt.title(f'Velocity of a falling raindrop (g={g} [m/s^2], k={k} [1/s])')
+    plt.legend(['RK4', '9.8'], loc='lower right')
     plt.show()
 
 
